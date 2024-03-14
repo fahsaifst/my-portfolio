@@ -9,8 +9,8 @@ const Contact = () => {
     <section 
       data-aos="fade-up"
       data-aos-anchor-placement="bottom-bottom"
-      data-aos-offset="-600"
-      data-aos-duration="1500"
+      data-aos-offset="-700"
+      data-aos-duration="1000"
       id="contact"
       className="text-center py-56"
     >

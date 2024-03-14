@@ -33,8 +33,8 @@ const AboutMe = () => {
       <motion.div 
       data-aos="fade-up"
       data-aos-anchor-placement="bottom-bottom"
-      data-aos-offset="-200"
-      data-aos-duration="1500">
+      data-aos-offset="-400"
+      data-aos-duration="500">
       <h2 className="text-center text-[1.3rem] font-medium pt-44">Education</h2>
       <div className="grid grid-cols-2 pt-10 lg:px-20 font-regular text-gray-600">
         <div className="grid grid-rows-2 text-center gap-10 font-medium">
