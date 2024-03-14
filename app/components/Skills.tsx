@@ -9,13 +9,9 @@ const Skills = () => {
       
   return (
     <motion.div 
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0.25}}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1}}
         className="leading-8 sm:mb-40 py-14" id="skills">
-        <motion.h2 className="text-[1.5rem] text-center font-medium pt-32 pb-10">My skills</motion.h2>
+        <motion.h2 
+        className="text-[1.5rem] text-center font-medium pt-32 pb-10">My skills</motion.h2>
       <motion.div>
         <h4 className="py-10 font-semibold text-[1.2rem] text-gray-600">Programming Languages</h4>
         <div className="grid sm:grid-cols-4 gap-6 items-center">

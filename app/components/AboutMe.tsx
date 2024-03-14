@@ -10,12 +10,11 @@ const AboutMe = () => {
   return (
     <motion.section
       className="mb-32 leading-8 sm:mb-40 py-14"
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.2}}
-      transition={{ delay: 0.125}}
       id="about">
-      <motion.div>
+      <motion.div
+      data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom"
+      data-aos-duration="1500">
       <h2 className="text-[1.3rem] text-center font-medium pt-32">About me</h2>
       <p className="text-center font-regular text-gray-600 lg:px-44 pt-5">
         <span>My name is</span>
@@ -31,7 +30,9 @@ const AboutMe = () => {
         <span className="font-semibold"> I'm excited about the chance to learn, develop, and make meaningful contribution</span>
       </p>
       </motion.div>
-      <motion.div>
+      <motion.div 
+      data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom">
       <h2 className="text-center text-[1.3rem] font-medium pt-44">Education</h2>
       <div className="grid grid-cols-2 pt-10 lg:px-20 font-regular text-gray-600">
         <div className="grid grid-rows-2 text-center gap-10 font-medium">

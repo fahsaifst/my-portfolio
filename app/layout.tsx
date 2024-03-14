@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/app/components/Navbar";
+import { AOSInit } from './aos'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <AOSInit />
       <body className={`${inter.className} bg-yellow-50 text-gray-950 relative pt-28 sm:pt-36`}>
         <div className="bg-[#ccfbf1] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] 
                           rounded-full blur-[10rem] sm:w-[68.75rem]">
