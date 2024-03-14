@@ -80,7 +80,7 @@ export default function Intro() {
                 duration: 0.2
             }}>
             <Image
-                src="/images/profile.jpg"
+                src="/profile.jpg"
                 alt="profile image"
                 width={300}
                 height={300}

@@ -17,7 +17,7 @@ const Skills = () => {
         className="leading-8 sm:mb-40 py-14" id="skills">
         <motion.h2 className="text-[1.5rem] text-center font-medium pt-32 pb-10">My skills</motion.h2>
       <motion.div>
-        <h4 className="py-10 font-semibold text-[1rem] text-gray-600">Programming Languages</h4>
+        <h4 className="py-10 font-semibold text-[1.2rem] text-gray-600">Programming Languages</h4>
         <div className="grid sm:grid-cols-4 gap-6 items-center">
             {languagesData.map(language => (
                 <div key={language.name} className="flex items-center">
@@ -33,7 +33,7 @@ const Skills = () => {
         </div>
       </motion.div>
       <motion.div>
-      <h4 className="py-10 font-semibold text-[1rem] text-gray-600">Developments</h4>
+      <h4 className="py-10 font-semibold text-[1.2rem] text-gray-600">Developments</h4>
       <div className="grid md:grid-cols-4 gap-6 items-center">
         {developmentData.map(development => (
           <div key={development.name} className="flex items-center">
@@ -49,7 +49,7 @@ const Skills = () => {
       </div>
       </motion.div>
       <motion.div>
-      <h4 className="py-10 font-semibold text-[1rem] text-gray-600">Libraries</h4>
+      <h4 className="py-10 font-semibold text-[1.2rem] text-gray-600">Libraries</h4>
       <div className="grid md:grid-cols-4 gap-6 items-center">
         {librariesData.map(library=> (
           <div key={library.name} className="flex items-center">
@@ -65,7 +65,7 @@ const Skills = () => {
       </div>
       </motion.div>
       <div>
-      <h4 className="py-10 font-semibold text-[1rem] text-gray-600">Tools</h4>
+      <h4 className="py-10 font-semibold text-[1.2rem] text-gray-600">Tools</h4>
       <div className="grid md:grid-cols-4 gap-6 items-center">
         {toolData.map(tool=> (
           <div key={tool.name} className="flex items-center">
