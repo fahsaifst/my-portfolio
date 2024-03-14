@@ -14,6 +14,9 @@ const Projects = () => {
   return (
     <motion.section
         data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-offset="-600"
+        data-aos-duration="1500"
         className="mb-28 leading-8 sm:mb-40 pt-14" id="projects">
         <motion.h2 className="text-[1.3rem] text-center font-medium pt-32">Projects</motion.h2>
         <ul ref={ref}

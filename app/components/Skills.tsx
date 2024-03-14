@@ -8,7 +8,11 @@ const Skills = () => {
 
       
   return (
-    <motion.div 
+    <motion.div
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-offset="-600"
+        data-aos-duration="1500"
         className="leading-8 sm:mb-40 py-14" id="skills">
         <motion.h2 
         className="text-[1.5rem] text-center font-medium pt-32 pb-10">My skills</motion.h2>
