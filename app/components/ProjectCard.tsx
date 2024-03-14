@@ -9,7 +9,7 @@ type ProjectCardProps = (typeof projectsData)[number]
 function ProjectCard({ image, title, description, tags, gitUrl }: ProjectCardProps) {
   const [expanded, setExpanded] = useState<boolean>(false);
 
-  const toggleExpanded = () => {
+  const toggleExpanded = () => { 
     setExpanded(!expanded);
   };
   return (
