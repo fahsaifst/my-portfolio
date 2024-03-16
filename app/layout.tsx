@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/app/components/Navbar";
 import { AOSInit } from './aos'
 
 const inter = Inter({ subsets: ["latin"] });
@@ -27,7 +26,7 @@ export default function RootLayout({
                           rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-30rem] lg:left-[-28rem]
                           xl:left-[-15rem] 2xl:left-[-5rem] ">
         </div>
-        <Navbar/>
+
         {children}</body>
     </html>
   );

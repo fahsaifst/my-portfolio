@@ -6,15 +6,17 @@ import { projectsData } from '@/lib/data';
 
 type ProjectCardProps = (typeof projectsData)[number]
 
-function ProjectCard({ image, title, description, tags, gitUrl }: ProjectCardProps) {
+function ProjectCard({ image, title, description, tags, gitUrl, page }: ProjectCardProps) {
   const [expanded, setExpanded] = useState<boolean>(false);
 
-  const toggleExpanded = () => { 
-    setExpanded(!expanded);
-  };
   return (
-<div onClick={toggleExpanded} className={`flex flex-col h-full cursor-pointer`}>
-      <div
+<Link href={page} 
+      className={`flex flex-col h-full cursor-pointer`}
+>
+      <motion.div
+                whileHover={{ scale: [null, 1, 1.1] }}
+                transition={{ duration: 0.3 }} >
+        <div
         className="h-52 md:h-58 rounded-t-[1.5rem] bg-cover bg-center relative"
         style={{ backgroundImage: `url(${image})` }}
       ></div>
@@ -34,24 +36,11 @@ function ProjectCard({ image, title, description, tags, gitUrl }: ProjectCardPro
             <p className="text-[#8b8b8b] overflow-hidden line-clamp-2">{description}</p>
           )}
         </div>
-        <Link target="_blank" href={gitUrl}>
-          <motion.button
-            whileHover={{ scale: [null, 1, 1.1] }}
-            transition={{ duration: 0.2 }}
-            className="flex items-center px-3 py-1 mt-4 text-black rounded-full bg-transparent border border-gray-500"
-          >
-            repository
-            <img
-              className="ml-1"
-              src="/icons/github.svg"
-              alt="GitHub icon"
-              width={20}
-              height={20}
-            />
-          </motion.button>
-        </Link>
+
       </div>
-    </div>
+        </motion.div>
+
+    </Link>
   )
 }
 export default ProjectCard;

@@ -3,7 +3,6 @@ import React from 'react';
 import { projectsData } from '@/lib/data';
 import { motion, useInView, } from "framer-motion";
 import { useState, useRef } from 'react';
-import Link from 'next/link';
 import ProjectCard from './ProjectCard';
 
 
