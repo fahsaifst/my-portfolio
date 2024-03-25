@@ -113,6 +113,10 @@ export const librariesData = [
     image:"/images/skills/framer.svg",
     name:"Framer Motion"
   },
+  {
+    image:"/images/skills/opencv.svg",
+    name:"OpenCV"
+  },
 ] as const;
 
 export const toolData = [
@@ -132,10 +136,7 @@ export const toolData = [
     image:"/images/skills/vscode.svg",
     name:"Vscode"
   },
-  {
-    image:"/images/skills/opencv.svg",
-    name:"OpenCV"
-  },
+  
 
 ]
 
