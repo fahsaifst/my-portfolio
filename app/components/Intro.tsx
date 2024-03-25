@@ -60,7 +60,7 @@ export default function Intro() {
                         />
                     </motion.button>
                 </Link>
-                <Link target="_blank" href="https://drive.google.com/file/d/1qMXU30fQUcHOHb3yFkq7DGmHmnw59Z5f/view?usp=drive_link">
+                <Link target="_blank" href="https://drive.google.com/file/d/1NGGQo4eaxnajHLypvVJZMjSHlzE8_lsB/view?usp=sharing">
                     <motion.button 
                         whileHover={{ scale: [null, 1, 1.1] }}
                         transition={{ duration: 0.3 }}
