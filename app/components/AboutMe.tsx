@@ -19,15 +19,16 @@ const AboutMe = () => {
       <p className="text-center font-regular text-gray-600 lg:px-44 pt-5">
         <span>My name is</span>
         <span className="font-semibold"> Thanyakan Maneetool</span>
-        <span>, a third-year</span>
+        <span>, a fourth-year</span>
         <span className="font-semibold"> Computer Science</span>
         <span> student at</span>
         <span className="font-semibold"> King Mongkut's University of Technology Thonburi</span>
-        <span>. Currently</span>
-        <span className="font-semibold"> seeking internship opportunities</span>
-        <span>, I'm eager to apply my skills in a real-world setting, and further hone my abilities. 
-                As I embark on this journey, I'm not just looking for an internship,</span>
-        <span className="font-semibold"> I'm excited about the chance to learn, develop, and make meaningful contribution</span>
+        <span>. I’m a passionate</span>
+        <span className="font-semibold"> mobile app developer</span>
+        <span> who enjoys turning ideas into interactive, user-friendly experiences. I specialize in building cross-platform applications using </span>
+        <span className="font-semibold text-blue-500"> Flutter</span>
+        <span> , with a strong foundation in UI/UX design, front-end development, and API integration. Mobile is my main focus, but I also explore web technologies to round out my skills.</span>
+        <span className="font-semibold"> I’m currently looking for my first full-time role where I can contribute, grow, and build meaningful apps that make people’s lives easier.</span>
       </p>
       </motion.div>
       <motion.div 
@@ -48,26 +49,26 @@ const AboutMe = () => {
                 Bachelor of Science in Computer Science (English Program) King Mongkut's University of Technology Thonburi,
                 School of Information Technology 
               </span>
-              <span className="text-[#ad72cb]">
+              {/* <span className="text-[#ad72cb]">
                 <br/>GPAX: 2.92
-              </span>
+              </span> */}
             </p>
-            <Link target="_blank" href="https://drive.google.com/file/d/11kNqj2rczY8ZW2fq1t5wSPTHjnMFeyG8/view?usp=sharing">
+            {/* <Link target="_blank" href="https://drive.google.com/file/d/11kNqj2rczY8ZW2fq1t5wSPTHjnMFeyG8/view?usp=sharing">
                     <motion.button 
                         whileHover={{ scale: [null, 1, 1.1] }}
                         transition={{ duration: 0.2 }}
                         className="px-2 text-gray-500 rounded-full bg-transparent border border-gray-500">
                             Transcript
                     </motion.button>
-            </Link>
+            </Link> */}
             </div>
           <p>
             <span>
               Talent Enrichment Program (TEP), Bangpakok Wittayakom 
             </span>
-            <span className="text-[#ad72cb]">
+            {/* <span className="text-[#ad72cb]">
               <br/>GPAX: 3.90
-            </span>
+            </span> */}
 
           </p>
         </div>

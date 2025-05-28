@@ -33,7 +33,7 @@ export default function Intro() {
             <h1 className="font-mono text-[#4f46e5] text-3xl sm:text-4xl text-center lg:text-left lg:text-7xl font-bold">
                 Hi, I'm Fahsai 🌤
             </h1>
-            <p className="mt-5 font-medium text-center text-black">A 3rd year student of Computer Science at KMUTT.</p>
+            <p className="mt-5 font-medium text-center text-black">A 4th year student of Computer Science at KMUTT.</p>
             <div className="flex justify-center mt-6 mb-10">           
                 <Link target="_blank" href="https://github.com/fahsaifst">
                     <motion.button
