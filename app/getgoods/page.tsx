@@ -16,7 +16,7 @@ export default function GetGoods() {
             <img
             className="rounded-lg shadow-md size-full "
             src="/images/projects/getgoods/32.jpg"
-            alt="LinkedIn icon"
+            alt="project image"
             />
           </div>
           <div className="lg:flex lg:justify-center pt-5 md:pt-10">

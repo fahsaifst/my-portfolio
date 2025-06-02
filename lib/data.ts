@@ -29,6 +29,15 @@ export const links = [
 export const projectsData = [
   {
     id: 1,
+    title: "Readee",
+    description: "A mobile application developed as a senior project, designed to enable users to swap and chat about secondhand books within a community platform. The project focused on delivering a smooth and engaging user experience for matching and communicating with book-swapping partners.",
+    image: "/images/projects/readee/Readee.png",
+    tags: ["Dart", "Flutter", "Golang", "Azure Blob Storage"],
+    gitUrl: "https://github.com/fahsaifst/Helmet-detector.git",
+    page: "/readee"
+  },
+  {
+    id: 2,
     title: "Haan R Haan",
     description: "A mobile application that allows users to create parties and split bills together. The app helps users efficiently manage their expenses during group outings, parties, or any shared activities.",
     image: "/images/projects/haanrhaan/hrh.png",
@@ -37,7 +46,7 @@ export const projectsData = [
     page: "/haanrhaan"
   },
   {
-    id: 2,
+    id: 3,
     title: "GetGoods",
     description: "A platform for new merchants and farmers to sell local and processed products, offering benefits, expanding customer base, and protecting against competition.",
     image: "/images/projects/getgoods/gg.png",
@@ -46,7 +55,7 @@ export const projectsData = [
     page: "/getgoods"
   },
   {
-    id: 3,
+    id: 4,
     title: "Helmet Detector",
     description: "An AI project designed to enhance safety within the KMUTT area by identifying riders without helmets and triggering a sound alert for immediate awareness.",
     image: "/images/projects/ai/helmet.jpeg",

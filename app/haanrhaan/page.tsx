@@ -16,7 +16,7 @@ export default function HaanRHaan() {
             <img
             className="rounded-lg shadow-md size-full "
             src="/images/projects/haanrhaan/wireframe.jpg"
-            alt="LinkedIn icon"
+            alt="project image"
             />
           </div>
           <div className="flex justify-center lg:pl-10 py-5 lg:pt-10">     
