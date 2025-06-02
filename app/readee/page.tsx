@@ -26,24 +26,24 @@ export default function Readee() {
             alt="project image"
             />
           </div>
-          {/* <div className="flex justify-center lg:pl-10 py-5 lg:pt-10">     
-              <Link className="flex justify-center lg:flex lg:justify-start" target="_blank" href="https://github.com/fahsaifst/getgoods.git">
+          <div className="flex justify-center lg:pl-10 py-5 lg:pt-10">     
+              <Link className="flex justify-center lg:flex lg:justify-start" target="_blank" href="https://seniorproject.sit.kmutt.ac.th/showproject/CS64-RE11">
                 <motion.button
                   whileHover={{ scale: [null, 1, 1.1] }}
                   transition={{ duration: 0.2 }}
                   className="flex items-center px-3 py-1 mt-4 text-black rounded-full bg-transparent border border-gray-500"
                 >
-                  repository
-                 <img
+                  SIT Portfolio
+                 {/* <img
                     className="ml-1"
                     src="/icons/github.svg"
                     alt="GitHub icon"
                     width={20}
                     height={20}
-                  />
+                  /> */}
                 </motion.button>
               </Link>
-            </div> */}
+            </div>
         </div>
 
         <Footer />
