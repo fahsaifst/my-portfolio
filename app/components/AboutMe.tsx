@@ -28,7 +28,7 @@ const AboutMe = () => {
         <span> who enjoys turning ideas into interactive, user-friendly experiences. I specialize in building cross-platform applications using </span>
         <span className="font-semibold text-blue-500"> Flutter</span>
         <span> , with a strong foundation in UI/UX design, front-end development, and API integration. Mobile is my main focus, but I also explore web technologies to round out my skills.</span>
-        <span className="font-semibold"> I’m currently looking for my first full-time role where I can contribute, grow, and build meaningful apps that make people’s lives easier.</span>
+        <span className="font-semibold"> I’m currently looking for my first full-time role where I can contribute, grow, and build meaningful experiences that make people’s lives easier.</span>
       </p>
       </motion.div>
       <motion.div 
