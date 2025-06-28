@@ -19,16 +19,15 @@ const AboutMe = () => {
       <p className="text-center font-regular text-gray-600 lg:px-44 pt-5">
         <span>My name is</span>
         <span className="font-semibold"> Thanyakan Maneetool</span>
-        <span>, a fourth-year</span>
+        <span>, a recent</span>
         <span className="font-semibold"> Computer Science</span>
-        <span> student at</span>
+        <span> graduate from</span>
         <span className="font-semibold"> King Mongkut's University of Technology Thonburi</span>
-        <span>. I’m a passionate</span>
-        <span className="font-semibold"> mobile app developer</span>
-        <span> who enjoys turning ideas into interactive, user-friendly experiences. I specialize in building cross-platform applications using </span>
-        <span className="font-semibold text-blue-500"> Flutter</span>
-        <span> , with a strong foundation in UI/UX design, front-end development, and API integration. Mobile is my main focus, but I also explore web technologies to round out my skills.</span>
-        <span className="font-semibold"> I’m currently looking for my first full-time role where I can contribute, grow, and build meaningful experiences that make people’s lives easier.</span>
+        <span>. I’m a motivated</span>
+        <span className="font-semibold"> software engineer</span>
+        <span> with a strong foundation in front-end and mobile development. I specialize in building cross-platform applications using Flutter and have experience in UI/UX design, RESTful API integration, and collaborative development.</span>
+        <span> While mobile is my core strength, I’m also expanding into full-stack development with technologies like React and Node.js. I enjoy solving real-world problems and creating user-centric solutions.</span>
+        <span className="font-semibold"> I’m now seeking a full-time opportunity where I can continue to grow as a software engineer, contribute to impactful products, and learn from experienced teams.</span>
       </p>
       </motion.div>
       <motion.div 
